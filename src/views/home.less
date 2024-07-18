@@ -1,0 +1,96 @@
+.scale-wrap {
+    color: #d3d6dd;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    .bg {
+        width: 100%;
+        height: 100%;
+        padding: 16px 16px 10px 16px;
+        box-sizing: border-box;
+        background-image: url("@/assets/img/pageBg.png");
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .host-body {
+        height: 100%;
+
+        .title_wrap {
+            height: 60px;
+            background-image: url("@/assets/img/top.png");
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+            margin-bottom: 4px;
+
+            .guang {
+                position: absolute;
+                bottom: -26px;
+                background-image: url("@/assets/img/guang.png");
+                background-position: 80px center;
+                width: 100%;
+                height: 56px;
+            }
+
+            .zuojuxing,
+            .youjuxing {
+                position: absolute;
+                top: -2px;
+                width: 140px;
+                height: 6px;
+                background-image: url("@/assets/img/headers/juxing1.png");
+            }
+
+            .zuojuxing {
+
+                left: 11%;
+            }
+
+            .youjuxing {
+                right: 11%;
+                transform: rotate(180deg);
+            }
+        .title {
+            position: relative;
+            // width: 500px;
+            text-align: center;
+            background-size: cover;
+            color: transparent;
+            height: 60px;
+            line-height: 46px;
+            .title-text {
+                font-size: 38px;
+                font-weight: 900;
+                letter-spacing: 6px;
+                width: 100%;
+                background: linear-gradient(92deg, #0072FF 0%, #00EAFF 48.8525390625%, #01AAFF 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+
+
+}
+
+.scale-wrap {
+    .pagetab {
+        position: absolute;
+        top: -35px;
+        display: flex;
+
+        .item {
+            width: 130px;
+            height: 36px;
+            border-radius: 18px 0px 0px 18px;
+            color: #00FBF8;
+            text-indent: 26px;
+            line-height: 36px;
+            font-size: 16px;
+            margin-right: 20px;
+            background: linear-gradient(to right, rgba(76, 245, 255, .5), rgba(76, 245, 255, 0));
+        }
+    }
+}
+}
